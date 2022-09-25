@@ -6,35 +6,53 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <title>FAQ Accordion Card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
-
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+    <div class="child" id="imagem-lateral"></div>
+    <div cladss="child" id="texto-faq">
+      <h1>FAQ</h1>
+      <div class="perguntas-tudo">
+        <div class="pergunta-resposta">
+          <h2 class="pergunta">How many team members can I invite?</h2>
+          <p class="resposta">You can invite up to 2 additional users on the Free plan. There is no limit on 
+          team members for the Premium plan.</p>
+        </div>
+        <div class="pergunta-resposta">
+          <h2 class="pergunta">What is the maximum file upload size?</h2>
+          <p class="resposta">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </div>
+        <div class="pergunta-resposta">
+          <h2 class="pergunta">How do I reset my password?</h2>
+          <p class="resposta">Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.</p>
+        </div>  
+        <div class="pergunta-resposta">
+          <h2 class="pergunta">Can I cancel my subscription?</h2>
+          <p class="resposta">Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </div>
+        <div class="pergunta-resposta">
+          <h2 class="pergunta">Do you provide additional support?</h2>
+          <p class="resposta">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </div>
+      </div>
+    </div>  
   </div>
+  <div class="rodape">
+    <footer id="conteudo-rodape">
+      <p id="texto-rodape">
+        Desenvolvido por <a href="https://github.com/amandafd">Amanda Dionísio</a>, a partir do desafio de: <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      </p>
+    </footer>
+  </div>
+  <script type="text/javascript" src="/main.js"></script>
 </body>
 </html>
