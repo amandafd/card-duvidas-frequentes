@@ -22,12 +22,31 @@ body {
     background: white url(./images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 43.6rem;
     width: 73rem;
     border-radius: 2rem;
+    place-content: center;
+}
+
+.child {
+    width: 50%;
 }
 
 #imagem-lateral {
     background-image: url(./images/illustration-woman-online-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.pergunta-resposta {
+
+}
+
+.pergunta-resposta h1 {
+    color: black;
+
+}
+
+.pergunta-resposta p {
+    opacity: 70%;
 }
