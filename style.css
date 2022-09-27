@@ -39,11 +39,13 @@ body {
     background-repeat: no-repeat;
     background-position-x: -7.3rem;
     background-position-y: 6.5rem;
-    background-size: 41rem;
+    background-size: 40rem;
 }
 
 #texto-faq {
-    margin: 1rem 0;
+    margin: 4rem 4rem 1rem 4rem;
+    display: flex;
+    flex-direction: column;
 }
 
 #texto-faq h1 {
@@ -64,10 +66,12 @@ body {
     background-repeat: no-repeat;
     background-position: right;
     font-weight: 700;
+    
 }
 
 .resposta {
     opacity: 70%;
+    display: none;
 }
 
 .rodape {
@@ -101,3 +105,5 @@ body {
     }
 
 }
+
+/*Você consegue deixar qualquer coisa no DOM clicável... sugiro colocar nesse elemento, lá no CSS, a propriedade cursor: pointer pra aparecer a mãozinha e facilitar ao usuário entender que o elemento é clicável*/
