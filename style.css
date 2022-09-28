@@ -43,34 +43,53 @@ body {
 }
 
 #texto-faq {
-    margin: 4rem 4rem 1rem 4rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
 }
 
 #texto-faq h1 {
+    font-family: 'Kumbh Sans', sans-serif;;
     font-size: 1.92rem;
     font-weight: 700;
 }
+
 .perguntas-tudo {
     max-width: 100rem;
 }
 
-.pergunta-resposta {
-    margin: 1.5rem 0;
-}
-
 .pergunta {
     color: black;
-    background-image: url(./images/icon-arrow-down.svg);
+    background-color: rgba(255, 255, 255, 0);
     background-repeat: no-repeat;
     background-position: right;
-    font-weight: 700;
-    
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: none;
+    margin: 1.5rem 0;
+    outline: none;
+    text-align: left;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
 }
 
+.pergunta img {
+    align-self: right;
+}
+
+.active .pergunta:hover {
+    font-weight: 700;
+}
+
+.active .pergunta img:hover {
+    transform: rotate(180deg);
+}
 .resposta {
     opacity: 70%;
+    overflow: hidden;
     display: none;
 }
 
@@ -105,5 +124,3 @@ body {
     }
 
 }
-
-/*Você consegue deixar qualquer coisa no DOM clicável... sugiro colocar nesse elemento, lá no CSS, a propriedade cursor: pointer pra aparecer a mãozinha e facilitar ao usuário entender que o elemento é clicável*/

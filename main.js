@@ -1,32 +1,18 @@
-var pergunta = document.querySelectorAll('.pergunta');
-var resposta = document.querySelectorAll('.resposta')
-
-pergunta.addEventListener("click", mostraEsconde());
 
 
-function mostraEsconde() {
-    if (resposta.style.display == 'none') {
-     resposta.style.display = 'block';
-     /*função para girar icone*/
-     console.log("foi");
-    } else {
-        resposta.style.display = 'none';
-        /*função para voltar a esconder*/
-        console.log("voltou");
-    }
-};
+var pergunta = document.getElementsByClassName("pergunta");
+var i;
 
-/*exemplo para testar modificação
-function Mudarestado(el) {
-    var display = document.getElementById(el).style.display;
-    var botao = document.getElementById("meuBotao");
+for (i=0; i < pergunta.length; i++) {
+    pergunta[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var resposta = this.nextElementSibling;
+        if (resposta.style.display === "block") {
+            resposta.style.display = "none";
+        } else {
+            resposta.style.display = "block";
+        }
+    })
+}
 
-    if(display == "none") {
-        document.getElementById(el).style.display = 'block';
-        botao.innerHTML = "Esconder";
-    }
-    else {
-        document.getElementById(el).style.display = 'none';
-        botao.innerHTML = "Mostrar";
-    }
-}*/
+console.log(pergunta)
