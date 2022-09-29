@@ -36,6 +36,12 @@
 <h3 id="aprendizados">Aprendizados</h3>
 <p>Os aprendizados serão atualizados durante o desenvolvimento do projeto</p>
 
+<ul>
+  <li></li>
+  <li>Uso do de botão com função de recolher/mostrar o conteúdo em HTML e CSS</li>
+  <li>Manipulação de elementos com o DOM e Javascript para ativar funcionamento especifico do botão com eventListeners</li>
+</ul>
+
 <h2 id="autora" align="left">Autora</h2>
 <img align="left" src="https://avatars.githubusercontent.com/u/104245596?s=400&u=22dddd54d435db2df3c8f6e91c881be3cdc31170&v=4" width=115>
 <a href="https://github.com/amandafd">Amanda Dionisio</a>

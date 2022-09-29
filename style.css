@@ -18,28 +18,49 @@ body {
 }
 
 .container {
-    background: white url(./images/bg-pattern-desktop.svg);
-    background-repeat: no-repeat;
-    background-position-x: -39rem;
-    background-position-y: -25rem;
-    background-size: 71rem 82rem;
     display: flex;
     flex-direction: row;
-    height: 43.6rem;
-    width: 73rem;
-    border-radius: 2rem;
+    position: relative;
 }
 
 .child {
     width: 50%;
 }
 
-#imagem-lateral {
+#caixa-branca {
+    background-image: url(./images/bg-pattern-desktop.svg);
+    background-color:  white;
+    background-repeat: no-repeat;
+    background-position-x: -39rem;
+    background-position-y: -25rem;
+    background-size: 70rem 81rem;
+    height: 43.6rem;
+    width: 73rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2rem;
+    z-index: 1;
+}
+
+#imagem-mulher-desktop {
     background-image: url(./images/illustration-woman-online-desktop.svg);
     background-repeat: no-repeat;
-    background-position-x: -7.3rem;
-    background-position-y: 6.5rem;
-    background-size: 40rem;
+    background-position-x: -6.6rem;
+    background-position-y: 8.5rem;
+    background-size: 37rem;
+
+}
+
+#imagem-box-desktop {
+    background-image: url(./images/illustration-box-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 14.9rem;
+    left: -7.30rem;
+    top: 18.8rem;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
 }
 
 #texto-faq {
@@ -87,6 +108,7 @@ body {
 .active .pergunta img:hover {
     transform: rotate(180deg);
 }
+
 .resposta {
     opacity: 70%;
     overflow: hidden;
@@ -110,7 +132,12 @@ body {
         display: flex;
         flex-direction: column;
         height: auto;
+        background-position-x: 0;
+        background-position-y: 0;
+        background-size: 1rem 1rem;
+        justify-content: center;
         margin: 0 1.5rem;
+        position: relative;
     }
 
     .child {
@@ -119,8 +146,29 @@ body {
         padding: 0 1.5rem;
     }
 
+    #imagem-box-desktop {
+        display: none;
+    }
+
+    #imagem-mulher-mobile {
+        background-image: url(./images/illustration-woman-online-mobile.svg);
+        background-repeat: no-repeat;
+        height: 10rem;
+        position: absolute;
+        z-index: 3;
+    }
+
+    #caixa-branca {
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+    }
+
     #texto-faq h1 {
         text-align: center;
     }
 
+    #imagem-mulher-desktop {
+        display: none;
+    }
 }
