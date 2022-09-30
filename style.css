@@ -27,6 +27,10 @@ body {
     width: 50%;
 }
 
+hr {
+    margin: 1rem 0;
+}
+
 #caixa-branca {
     background-image: url(./images/bg-pattern-desktop.svg);
     background-color:  white;
@@ -69,6 +73,9 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 28rem;
+    min-height: 42rem;
+    max-height: 35rem;
+    margin-top: 0.5rem
 }
 
 #texto-faq h1 {
@@ -76,7 +83,10 @@ body {
     font-size: xx-large;
     font-weight: 700;
 }
+#texto-faq img {
+    margin-right: 1rem;
 
+}
 .perguntas-tudo {
     max-width: 100rem;
 }
@@ -92,15 +102,11 @@ body {
     align-items: center;
     width: 100%;
     border: none;
-    margin: 1.5rem 0;
+    margin-bottom: 1rem;
     outline: none;
     text-align: left;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
-}
-
-.pergunta img {
-    align-self: right;
 }
 
 .active .pergunta:hover {
@@ -109,6 +115,15 @@ body {
 
 .active .pergunta img:hover {
     transform: rotate(180deg);
+}
+
+#perguntas-respostas {
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.dupla-pr {
+    min-height: 4rem;
 }
 
 .resposta {
@@ -125,68 +140,106 @@ body {
 }
 
 @media screen and (max-width: 997px) {
-    .container {
-
-    }
     #imagem-mulher-desktop {
         display: none;
     }
+
     #imagem-box-desktop {
         display: none;
     }
 
-    #texto-faq{
-        width: auto;
-    }
-}
-
-@media screen and (max-width: 911px) {
     body {
-        display: flex;
-        flex-direction: row;
+        align-items: inherit;
+    }
+
+    hr {
+        margin: 1.5rem 0;
     }
 
     .container {
-        display: flex;
         flex-direction: column;
         height: auto;
-        background-position-x: 0;
-        background-position-y: 0;
-        background-size: 1rem 1rem;
         justify-content: center;
-        margin: 0 1.5rem;
-        position: relative;
-    }
-
-    .child {
-        max-width: 100%;
-        width: auto;
-        padding: 0 1.5rem;
-    }
-
-    #imagem-box-desktop {
-        display: none;
+        margin-top: 8rem;
     }
 
     #imagem-mulher-mobile {
         background-image: url(./images/illustration-woman-online-mobile.svg);
         background-repeat: no-repeat;
-        height: 10rem;
         position: absolute;
-        z-index: 3;
+        left: 20.9rem;
+        top: -6rem;
+        height: 33%;
+        width: 31%;
+        z-index: 4;
     }
 
     #caixa-branca {
+        background-image: url(./images/bg-pattern-mobile.svg);
+        background-size: auto;
+        background-position-x: center;
+        background-position-y: 0rem;
+        height: auto;
+        width: auto;
+    }
+
+    #texto-faq {
+        min-width: 53rem;
+        margin: auto 4rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    body {
         display: flex;
         flex-direction: column;
-        z-index: 1;
+        align-items: center;
+        height: auto;
+        padding-bottom: 2rem;
     }
 
-    #texto-faq h1 {
-        text-align: center;
+    .container {
+        justify-content: initial;
+        min-height: 58rem;
+        margin-top: 0;
     }
 
-    #imagem-mulher-desktop {
-        display: none;
+    #imagem-mulher-mobile {
+        left: 3.5rem;
+        top: 3.2rem;
+        height: 31%;
+        width: 75%;
     }
+
+    #caixa-branca {
+        margin-top: 12.6rem;
+        width: 28rem;
+    }
+
+    #texto-faq {
+        width: 100%;
+        min-width: inherit;
+        padding-top: 0;
+        margin: 10rem 0 3rem 0;
+        min-height: inherit;
+        max-height: inherit;
+        font-size: .9rem;
+        align-items: center;
+    }
+
+    #perguntas-respostas {
+        width: 23rem;
+        margin-top: 2.5rem;
+    }
+
+    .dupla-pr {
+        min-height: 4rem;
+    }
+
+    .rodape {
+        position: inherit;
+        bottom: 0;
+        margin-top: 2rem;
+    }
+
 }
