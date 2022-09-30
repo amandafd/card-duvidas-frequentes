@@ -1,5 +1,3 @@
-
-
 var pergunta = document.getElementsByClassName("pergunta");
 var i;
 

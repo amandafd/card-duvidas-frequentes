@@ -53,25 +53,27 @@ body {
 
 #imagem-box-desktop {
     background-image: url(./images/illustration-box-desktop.svg);
+    background-color: rgba(255, 255, 255, 0);
     background-repeat: no-repeat;
     background-size: 14.9rem;
     left: -7.30rem;
     top: 18.8rem;
-    height: 100%;
-    width: 100%;
+    height: 38%;
+    width: 21%;
     position: absolute;
     z-index: 2;
 }
 
 #texto-faq {
-    margin-top: 4rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 28rem;
 }
 
 #texto-faq h1 {
     font-family: 'Kumbh Sans', sans-serif;;
-    font-size: 1.92rem;
+    font-size: xx-large;
     font-weight: 700;
 }
 
@@ -120,6 +122,22 @@ body {
    bottom: 1rem;
    justify-self: center;
    text-align: center;
+}
+
+@media screen and (max-width: 997px) {
+    .container {
+
+    }
+    #imagem-mulher-desktop {
+        display: none;
+    }
+    #imagem-box-desktop {
+        display: none;
+    }
+
+    #texto-faq{
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 911px) {
