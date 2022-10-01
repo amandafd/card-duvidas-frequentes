@@ -1,9 +1,11 @@
 <h1 align="center">FAQ accordion card</h1>
-<p align="center">
-  <img src="./images/Screenshot.jpg" align="left" width="820" height="auto" alt="Screenshot desktop">
-  <img src="./images/Screenshot2.jpg" align="right" width="auto" height="410" alt="Screenshot mobile">
-  <a href="https://amandafd.github.io/faq-accordion-card" align="center">Link da página do projeto</a>
-</p>
+<p align="center" margin-bottom: 2px>
+  <img src="./images/Screenshot.jpg" align="left" width="auto" height="382" alt="Screenshot desktop">
+  <img src="./images/Screenshot2.jpg" align="right" width="auto" height="382" alt="Screenshot mobile"><br>
+</p>  
+
+<br/><br/>
+
 
 <p align="center">
   <a href=""><img src="https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-setembro%202022-blue" align="center" alt="Badge atualização" /></a>
