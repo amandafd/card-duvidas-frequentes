@@ -11,10 +11,10 @@ html {
 body {
     background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     background-repeat: no-repeat;
-    height: 100vh;
     display: grid;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .container {
@@ -32,11 +32,11 @@ body {
     background-color: rgba(255, 255, 255, 0);
     background-repeat: no-repeat;
     background-size: 14.9rem;
-    left: -7.30rem;
-    top: 18.8rem;
+    position: absolute;
     height: 38%;
     width: 21%;
-    position: absolute;
+    left: -7.30rem;
+    top: 18.8rem;
     z-index: 2;
 }
 
@@ -44,13 +44,13 @@ body {
     background-image: url(./images/bg-pattern-desktop.svg);
     background-color:  white;
     background-repeat: no-repeat;
+    background-size: 70rem 81rem;
     background-position-x: -39rem;
     background-position-y: -25rem;
-    background-size: 70rem 81rem;
-    height: 43.6rem;
-    width: 73rem;
     display: flex;
     flex-direction: row;
+    height: 43.6rem;
+    width: 73rem;
     border-radius: 2rem;
     z-index: 1;
 }
@@ -58,10 +58,9 @@ body {
 #imagem-mulher-desktop {
     background-image: url(./images/illustration-woman-online-desktop.svg);
     background-repeat: no-repeat;
+    background-size: 37rem;
     background-position-x: -6.6rem;
     background-position-y: 8.5rem;
-    background-size: 37rem;
-
 }
 
 
@@ -72,12 +71,12 @@ body {
     width: 28rem;
     min-height: 42rem;
     max-height: 35rem;
-    margin-top: 0.5rem
+    margin-top: 1.5rem
 }
 
 #texto-faq h1 {
     font-family: 'Kumbh Sans', sans-serif;;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: 700;
 }
 
@@ -100,7 +99,6 @@ body {
     background-color: rgba(255, 255, 255, 0);
     background-repeat: no-repeat;
     background-position: right;
-    cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,12 +109,13 @@ body {
     text-align: left;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .resposta {
-    opacity: 70%;
     overflow: hidden;
     display: none;
+    opacity: 70%;
 }
 
 hr {
@@ -129,13 +128,18 @@ button:hover {
 
 #caixa-branca .pergunta.active {
     font-weight: 900;
+    
+}
+
+#caixa-branca .pergunta.active img {
+    transform: rotate(-180deg);
 }
 
 .rodape {
-   position: absolute;
-   bottom: 1rem;
-   justify-self: center;
-   text-align: center;
+    bottom: 1rem;
+    position: absolute;
+    justify-self: center;
+    text-align: center;
 }
 
 @media screen and (max-width: 997px) {
@@ -145,8 +149,8 @@ button:hover {
 
     .container {
         flex-direction: column;
-        height: auto;
         justify-content: center;
+        height: auto;
         margin-top: 11rem;
     }
 
@@ -154,10 +158,10 @@ button:hover {
         background-image: url(./images/illustration-woman-online-mobile.svg);
         background-repeat: no-repeat;
         position: absolute;
-        left: 20.9rem;
-        top: -9rem;
         height: 33%;
         width: 31%;
+        left: 20.9rem;
+        top: -9rem;
         z-index: 4;
     }
 
@@ -170,9 +174,9 @@ button:hover {
         background-size: auto;
         background-position-x: center;
         background-position-y: 0rem;
+        position: relative;
         height: auto;
         width: auto;
-        position: relative;
         top: -4.5rem;
     }
 
@@ -182,8 +186,8 @@ button:hover {
 
     #texto-faq {
         min-width: 53rem;
-        margin: auto 4rem;
         padding-top: 2.5rem;
+        margin: auto 4rem;
     }
     
     hr {
@@ -207,27 +211,28 @@ button:hover {
     }
 
     #imagem-mulher-mobile {
-        left: 3.5rem;
-        top: 3.2rem;
         height: 31%;
         width: 75%;
+        left: 3.5rem;
+        top: 3.2rem;
     }
 
     #caixa-branca {
-        margin-top: 12.6rem;
         width: 28rem;
         top: 0.1rem;
+        margin-top: 12.6rem;
     }
 
     #texto-faq {
+        align-items: center;
         width: 100%;
         min-width: inherit;
-        padding-top: 0;
-        margin: 10rem 0 3rem 0;
         min-height: inherit;
         max-height: inherit;
+        padding-top: 0;
+        margin: 10rem 0 3rem 0;
         font-size: .9rem;
-        align-items: center;
+        
     }
 
     #perguntas-respostas {

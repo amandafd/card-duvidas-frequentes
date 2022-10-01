@@ -1,10 +1,16 @@
 <h1 align="center">FAQ accordion card</h1>
+<p align="center">
+  <img src="./images/Screenshot.jpg" align="left" width="820" height="auto" alt="Screenshot desktop">
+  <img src="./images/Screenshot2.jpg" align="right" width="auto" height="410" alt="Screenshot mobile">
+  <a href="https://amandafd.github.io/faq-accordion-card" align="center">Link da página do projeto</a>
+</p>
 
 <p align="center">
   <a href=""><img src="https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-setembro%202022-blue" align="center" alt="Badge atualização" /></a>
-  <a href=""><img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" align="center" alt="Badge status" /></a>
+  <a href=""><img src="https://img.shields.io/badge/status-conclu%C3%ADdo-green" align="center" alt="Badge status" /></a>
   <a href=""><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" align="center" alt="Badge HTML" /></a>
   <a href=""><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" align="center" alt="Badge CSS" /></a>
+  <a href=""><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" align="center" alt="Badge Javascript" /></a>
 </p>
 
 
