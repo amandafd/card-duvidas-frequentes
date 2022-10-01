@@ -27,8 +27,17 @@ body {
     width: 50%;
 }
 
-hr {
-    margin: 1rem 0;
+#imagem-box-desktop {
+    background-image: url(./images/illustration-box-desktop.svg);
+    background-color: rgba(255, 255, 255, 0);
+    background-repeat: no-repeat;
+    background-size: 14.9rem;
+    left: -7.30rem;
+    top: 18.8rem;
+    height: 38%;
+    width: 21%;
+    position: absolute;
+    z-index: 2;
 }
 
 #caixa-branca {
@@ -55,18 +64,6 @@ hr {
 
 }
 
-#imagem-box-desktop {
-    background-image: url(./images/illustration-box-desktop.svg);
-    background-color: rgba(255, 255, 255, 0);
-    background-repeat: no-repeat;
-    background-size: 14.9rem;
-    left: -7.30rem;
-    top: 18.8rem;
-    height: 38%;
-    width: 21%;
-    position: absolute;
-    z-index: 2;
-}
 
 #texto-faq {
     display: flex;
@@ -83,12 +80,19 @@ hr {
     font-size: xx-large;
     font-weight: 700;
 }
+
 #texto-faq img {
     margin-right: 1rem;
 
 }
-.perguntas-tudo {
-    max-width: 100rem;
+
+#perguntas-respostas {
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.dupla-pr {
+    min-height: 4rem;
 }
 
 .pergunta {
@@ -109,28 +113,23 @@ hr {
     font-weight: 400;
 }
 
-.active .pergunta:hover {
-    font-weight: 700;
-}
-
-.active .pergunta img:hover {
-    transform: rotate(180deg);
-}
-
-#perguntas-respostas {
-    justify-content: space-between;
-    margin-top: 1rem;
-}
-
-.dupla-pr {
-    min-height: 4rem;
-}
-
 .resposta {
     opacity: 70%;
     overflow: hidden;
     display: none;
 }
+
+hr {
+    margin: 1rem 0;
+}
+
+.active .pergunta:hover {
+    font-weight: 700;
+}
+
+/*.active .pergunta img:hover {
+    transform: rotate(180deg);
+}*/
 
 .rodape {
    position: absolute;
@@ -140,20 +139,8 @@ hr {
 }
 
 @media screen and (max-width: 997px) {
-    #imagem-mulher-desktop {
-        display: none;
-    }
-
-    #imagem-box-desktop {
-        display: none;
-    }
-
     body {
         align-items: inherit;
-    }
-
-    hr {
-        margin: 1.5rem 0;
     }
 
     .container {
@@ -174,6 +161,10 @@ hr {
         z-index: 4;
     }
 
+    #imagem-box-desktop {
+        display: none;
+    }
+
     #caixa-branca {
         background-image: url(./images/bg-pattern-mobile.svg);
         background-size: auto;
@@ -183,9 +174,17 @@ hr {
         width: auto;
     }
 
+    #imagem-mulher-desktop {
+        display: none;
+    }
+
     #texto-faq {
         min-width: 53rem;
         margin: auto 4rem;
+    }
+    
+    hr {
+        margin: 1.5rem 0;
     }
 }
 
