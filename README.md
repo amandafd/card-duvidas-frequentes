@@ -1,7 +1,7 @@
 <h1 align="center">FAQ accordion card</h1>
 <p align="center" margin-bottom: 2px>
-  <img src="./images/Screenshot.jpg" align="left" width="auto" height="382" alt="Screenshot desktop">
-  <img src="./images/Screenshot2.jpg" align="right" width="auto" height="382" alt="Screenshot mobile"><br>
+  <img src="./images/Screenshot.jpg" align="left" width="auto" height="367" alt="Screenshot desktop">
+  <img src="./images/Screenshot2.jpg" align="right" width="auto" height="367" alt="Screenshot mobile"><br>
 </p>  
 
 <br/><br/>
@@ -32,7 +32,6 @@
 <h2 id="visao-geral">Visão Geral</h2>
 
 <h3 id="o-desafio">O desafio</h3>
-
 <ul>Os usuários devem ser capazes de:
   <li>Visualizar corretamente o layout do site, dependendo do tamanho da tela do dispositivo</li>
   <li>Ver os estados de foco ativo para todos os elementos interativos da página</li>
