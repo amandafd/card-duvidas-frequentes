@@ -42,10 +42,8 @@
 <h2 id="meu-processo">Meu processo</h2>
 
 <h3 id="aprendizados">Aprendizados</h3>
-<p>Os aprendizados serão atualizados durante o desenvolvimento do projeto</p>
 
-<ul>
-  <li></li>
+<ul>Os aprendizados desenvolvidos e fixados durante a execução desse projeto fora:
   <li>Manipulação de elementos com o DOM e Javascript para ativar funcionamento especifico do botão com eventListeners</li>
   <li>Uso do de botão com função de recolher/mostrar o conteúdo em HTML e CSS</li>
   <li>Uso das funções hover e utilizando a criação de classes em JS para manipular estilizações em CSS</li>
