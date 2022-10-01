@@ -1,11 +1,4 @@
-<h1 align="center">FAQ accordion card</h1>
-<p align="center" margin-bottom: 2px>
-  <img src="./images/Screenshot.jpg" align="left" width="auto" height="367" alt="Screenshot desktop">
-  <img src="./images/Screenshot2.jpg" align="right" width="auto" height="367" alt="Screenshot mobile"><br>
-</p>  
-
-<br/><br/>
-
+<h1 align="center">Card de Dúvidas Frequentes</h1>
 
 <p align="center">
   <a href=""><img src="https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-setembro%202022-blue" align="center" alt="Badge atualização" /></a>
@@ -15,7 +8,11 @@
   <a href=""><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" align="center" alt="Badge Javascript" /></a>
 </p>
 
-
+<p align="center">
+  <img src="./images/Screenshot.jpg" align="center" width="auto" height="440" alt="Screenshot desktop">
+  <img src="./images/Screenshot2.jpg" align="right" width="auto" height="300" alt="Screenshot mobile"><br>
+</p> 
+</br>
 
 <p>Resolução do desafio <a href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam" alt="Link para o challenge">FAQ accordion card challenge on Frontend Mentor</a>.</p> 
 
