@@ -123,13 +123,13 @@ hr {
     margin: 1rem 0;
 }
 
-.active .pergunta:hover {
-    font-weight: 700;
+button:hover {
+    color: hsl(14, 88%, 65%);
 }
 
-/*.active .pergunta img:hover {
-    transform: rotate(180deg);
-}*/
+#caixa-branca .pergunta.active {
+    font-weight: 900;
+}
 
 .rodape {
    position: absolute;
@@ -147,7 +147,7 @@ hr {
         flex-direction: column;
         height: auto;
         justify-content: center;
-        margin-top: 8rem;
+        margin-top: 11rem;
     }
 
     #imagem-mulher-mobile {
@@ -155,7 +155,7 @@ hr {
         background-repeat: no-repeat;
         position: absolute;
         left: 20.9rem;
-        top: -6rem;
+        top: -9rem;
         height: 33%;
         width: 31%;
         z-index: 4;
@@ -172,6 +172,8 @@ hr {
         background-position-y: 0rem;
         height: auto;
         width: auto;
+        position: relative;
+        top: -4.5rem;
     }
 
     #imagem-mulher-desktop {
@@ -181,6 +183,7 @@ hr {
     #texto-faq {
         min-width: 53rem;
         margin: auto 4rem;
+        padding-top: 2.5rem;
     }
     
     hr {
@@ -213,6 +216,7 @@ hr {
     #caixa-branca {
         margin-top: 12.6rem;
         width: 28rem;
+        top: 0.1rem;
     }
 
     #texto-faq {

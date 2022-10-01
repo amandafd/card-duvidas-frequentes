@@ -13,4 +13,3 @@ for (i=0; i < pergunta.length; i++) {
     })
 }
 
-console.log(pergunta)

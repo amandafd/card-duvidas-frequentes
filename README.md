@@ -38,8 +38,15 @@
 
 <ul>
   <li></li>
-  <li>Uso do de botão com função de recolher/mostrar o conteúdo em HTML e CSS</li>
   <li>Manipulação de elementos com o DOM e Javascript para ativar funcionamento especifico do botão com eventListeners</li>
+  <li>Uso do de botão com função de recolher/mostrar o conteúdo em HTML e CSS</li>
+  <li>Uso das funções hover e utilizando a criação de classes em JS para manipular estilizações em CSS</li>
+  <li>Reforçando conhecimentos de HTML e CSS já trabalhados em projetos anteriores:
+    <li>Responsividade web</li>
+    <li>Posicionamento, espaçamento e distribuição de elementos em CSS</li>
+    <li>Flexbox e suas respectivas propriedades</li>
+    <li>Display grid</li>
+  </li>
 </ul>
 
 <h2 id="autora" align="left">Autora</h2>
