@@ -1,10 +1,12 @@
+<h1 align="center">Card Dúvidas Frequentes</h1>
+
 <div align-items="center">
   <img src="./images/Screenshot.jpg" align="right" width="auto" height="379" alt="Screenshot desktop">
   <img src="./images/Screenshot2.jpg" align="left" width="auto" height="379" alt="Screenshot mobile"><br>
 </div>
 </br>
 
-<h1 align="center">Card de Dúvidas Frequentes</h1>
+
 <div align="center">
     <a href=""><img src="https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-setembro%202022-blue" align="center" alt="Badge atualização" /></a>
     <a href=""><img src="https://img.shields.io/badge/status-conclu%C3%ADdo-green" align="center" alt="Badge status" /></a>
