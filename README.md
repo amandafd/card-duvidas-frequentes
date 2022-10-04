@@ -1,8 +1,8 @@
 <h1 align="center">Card Dúvidas Frequentes</h1>
 
 <div align-items="center">
-  <img src="./images/Screenshot.jpg" align="right" width="auto" height="379" alt="Screenshot desktop">
-  <img src="./images/Screenshot2.jpg" align="left" width="auto" height="379" alt="Screenshot mobile"><br>
+  <img src="./images/Screenshot.jpg" align="right" width="auto" height="350" alt="Screenshot desktop">
+  <img src="./images/Screenshot2.jpg" align="left" width="auto" height="350" alt="Screenshot mobile"><br>
 </div>
 </br>
 
