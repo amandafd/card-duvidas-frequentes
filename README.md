@@ -1,7 +1,7 @@
 <h1 align="center">Card Dúvidas Frequentes</h1>
 
 <div align-items="center">
-  <img src="./images/Screenshot.jpg" align="right" width="780" height="auto" alt="Screenshot desktop">
+  <img src="./images/Screenshot.jpg" align="right" width="750" height="auto" alt="Screenshot desktop">
   <img src="./images/Screenshot2.jpg" align="left" width="190" height="auto" alt="Screenshot mobile"><br>
 </div>
 </br>
@@ -14,6 +14,8 @@
     <a href=""><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" align="center" alt="Badge CSS" /></a>
     <a href=""><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" align="center" alt="Badge Javascript" />     </a>
 </div>
+
+<a href="https://amandafd.github.io/card-duvidas-frequentes/" align="center">Link da página do projeto</a>
 
 
 
