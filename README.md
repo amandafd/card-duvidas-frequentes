@@ -24,10 +24,10 @@
 
 <ul>Conteúdos
   <li><a href="#visao-geral">Visão Geral</a> 
-    <li><a href="#o-desafio">O Desafio</a></li>
+    <ul><li><a href="#o-desafio">O Desafio</a></li></ul>
   </li>  
   <li><a href="#meu-processo">Meu processo</a></li>
-    <li><a href="#aprendizados">Aprendizados</a></li>
+    <ul><li><a href="#aprendizados">Aprendizados</a></li></ul>
   </li>  
   <li><a href="#autora">Autora</li>
 </ul>
@@ -50,10 +50,10 @@
   <li>Uso do de botão com função de recolher/mostrar o conteúdo em HTML e CSS</li>
   <li>Uso das funções hover e utilizando a criação de classes em JS para manipular estilizações em CSS</li>
   <li>Reforçando conhecimentos de HTML e CSS já trabalhados em projetos anteriores:
-    <li>Responsividade web</li>
+    <ul><li>Responsividade web</li>
     <li>Posicionamento, espaçamento e distribuição de elementos em CSS</li>
     <li>Flexbox e suas respectivas propriedades</li>
-    <li>Display grid</li>
+    <li>Display grid</li></ul>
   </li>
 </ul>
 
